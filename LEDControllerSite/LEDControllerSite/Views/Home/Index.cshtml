@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";  
+}
+
+<div class="hero-unit">
+    <h1>LED Controller</h1>
+    <p class="lead">Use the buttons below to toggle the color on the microcontroller</p>
+</div>
+<div class="row">
+    <div class="span5 btn btn-success" id="greenButton">
+        Green
+    </div>
+    <div class="span5 btn btn-danger" id="redButton">
+        Red
+    </div>
+</div>
+<div class="row">
+    <div class="span12" id="result"></div>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(function () {
+            $('#greenButton').click(function () {
+                $.get('/api/led?color=green', function (response) {
+                    $('#result').text(response);
+                });
+            });
+            $('#redButton').click(function () {
+                $.get('/api/led?color=red', function (response) {
+                    $('#result').text(response);
+                });
+            });
+        });
+    </script>
+}

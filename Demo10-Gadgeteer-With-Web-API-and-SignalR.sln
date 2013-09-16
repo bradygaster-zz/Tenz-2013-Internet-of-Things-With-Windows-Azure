@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GadgeteerCallingWebApi", "GadgeteerCallingWebApi\GadgeteerCallingWebApi\GadgeteerCallingWebApi.csproj", "{3674A83E-64AC-4C5F-A449-E393E5C6F82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureAndHumidityApi", "TemperatureAndHumidityApi\TemperatureAndHumidityApi.csproj", "{F60F1579-5AD3-4EB6-902A-1D9652056418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMicroHelpers", "AzureMicroHelpers\AzureMicroHelpers.csproj", "{D009BCFE-0990-42A4-8799-3D4F3F28366C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D0C79B14-11E8-4CDF-AFD3-9BF16FB98197}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3674A83E-64AC-4C5F-A449-E393E5C6F82B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F60F1579-5AD3-4EB6-902A-1D9652056418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60F1579-5AD3-4EB6-902A-1D9652056418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60F1579-5AD3-4EB6-902A-1D9652056418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60F1579-5AD3-4EB6-902A-1D9652056418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D009BCFE-0990-42A4-8799-3D4F3F28366C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D009BCFE-0990-42A4-8799-3D4F3F28366C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D009BCFE-0990-42A4-8799-3D4F3F28366C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D009BCFE-0990-42A4-8799-3D4F3F28366C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
